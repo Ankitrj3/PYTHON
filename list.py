@@ -61,23 +61,62 @@
 ##    print(type(list2))
 
 
-lis=[1,2,3,4,5,6]
-a=input("enter numbers in the list to extend the list")
-a.split(',')
-lis.extend(a)
-print(lis)
+##lis=[1,2,3,4,5,6]
+##a=input("enter numbers in the list to extend the list")
+##a.split(',')
+##lis.extend(a)
+##print(lis)
+
+
+##sum of element in the list
+
+##lis=[]
+##a=int(input("enter length of list"))
+##for i in range(a):
+##    val=int(input("enter element of the list"))
+##    lis.append(val)
+##
+##sum=0
+##for i in range(a):
+##    sum = sum+lis[i]
+##    
+##    print("sum of element in the list=",sum)
+    
+
+##find total even and odd number in the list
+##lis=[]
+##size=int(input("enter the lenght of the list\n"))
+##for i in range(size):
+##    val=int(input("enter the values in the list\n"))
+##    lis.append(val)
+##
+##odd=0
+##even=0
+##
+##for i in range(size):
+##
+##    if(lis[i]%2==0):
+##        even = even+1
+##    else:
+##        odd = odd+1
+##print("total odd",odd,"total even",even)
 
 
 
-
-
-
-
-
-
-
-
-
+## minimum and maximum number in the list
+a=[]
+size=int(input("enter the size of list\n"))
+for i in range(size):
+    value=int(input("enter the elements in the list\n"))
+    a.append(value)
+sum=0
+for i in range(size):
+    mi = min(a)
+    mx = max(a)
+    
+print("the maximum number in the list is\n",mx)
+print("the minimum number in the list is\n",mi)
+  
 
 
 
